@@ -7,10 +7,11 @@
             <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
+        <div class="wrapper">
             <nav class="nav-bar">
-                    <p class="name" >Jennifer Bazelak</p>
+                    <h1 class="name" >Jennifer Bazelak</h1>
                     <div class="tabs">
-                    <a href="index.html">About Me</a> |
+                    <a href="index.html">About</a> |
                     <a href="portfolio.html">Portfolio</a> |
                     <a href="contact.html">Contact</a>
                     </div>
@@ -19,17 +20,25 @@
         <div class="main-content">
             <h1>Contact</h1>
             <hr>
-            <form>
-                <label>Name</label> <br>
-                <input> <br>
-                <label>Email</label> <br>
-                <input><br>
-                <label>Message</label> <br>
-                <textarea></textarea><br>
-                <button class="button">Submit</button>
+            <form class="form">
+                <section class="contact-input">
+                    <label>Name</label> <br>
+                    <input placeholder="John Smith"> <br>
+                </section>
+                <section class="contact-input">
+                    <label>Email</label> <br>
+                    <input placeholder="example@gmail.com"><br>
+                </section>
+                <section class="contact-input">
+                    <label>Message</label> <br>
+                    <textarea></textarea><br>
+                </section>
+                <button class="submit">Submit</button>
             </form>
         </div>
-
+        <div class="push"></div> 
+        </div>
+        <footer class="footer">Copyright</footer>
     </body>
-    <footer></footer>
+    
 </html>
